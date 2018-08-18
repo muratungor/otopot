@@ -1,0 +1,2 @@
+# otopot
+otopot altyapısını oluşturur
