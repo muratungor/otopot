@@ -1,0 +1,14 @@
+yum install ansible
+/etc/ansible/hosts
+[hostlar]
+haproxy ansible_ssh_host=192.168.0.16
+mosquito01 ansible_ssh_host=192.168.0.17
+mosquito02 ansible_ssh_host=192.168.0.18
+
+yum install git
+git config --global user.name "muratungor"
+git config --global user.email "muratungor@gmail.com"
+git config --list
+git clone https://github.com/muratungor/otopot.git
+git remote -v
+git push origin master
