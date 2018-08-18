@@ -12,3 +12,10 @@ git config --list
 git clone https://github.com/muratungor/otopot.git
 git remote -v
 git push origin master
+yeni dosya için:
+git add .
+git commit -m "yeni dosya"
+git push origin master
+
+şifre sormasın diye ssh'a geçmek için
+git remote set-url origin git@github.com:muratungor/otopot.git
